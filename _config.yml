@@ -7,8 +7,8 @@ description         : >-
                       I love reading, exercising and communicating!
 url                 : "https://jaezic.github.io/"
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : "jaezic/jaezic.github.io"    # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-#remote_theme        : YoussefRaafatNasry/portfolYOU
+repository          : "Jaezic/jaezic.github.io"    # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+remote_theme        : Jaezic/jaezic.github.io
 
 
 ### Plugins ###
