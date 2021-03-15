@@ -4,8 +4,8 @@ description         : >-
                       Hello
 url                 : "https://jaezic.github.io/"
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : "Jaezic/jaezic.github.io"    # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-#remote_theme        : Jaezic/jaezic.github.io
+repository          : ""    # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+remote_theme        : Jaezic/jaezic.github.io
 
 
 ### Plugins ###
@@ -51,7 +51,7 @@ permalink: /blog/:title
 ### Collections ###
 collections:
   projects:
-    output: false
+    output: true
     permalink: /projects/:name
 
 
@@ -62,7 +62,7 @@ disqus:
 
 ### Analytics ###
 analytics:
-  enabled: false                                        # Set true to enable analytics
+  enabled: true                                        # Set true to enable analytics
   google:
     tracking_id: your-google-tracking-id
 
@@ -78,7 +78,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      comments: false                                   # Set to true to enable disqus comments
+      comments: true                                   # Set to true to enable disqus comments
 
 ### Exclude from processing ###
 exclude:
