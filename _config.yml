@@ -1,10 +1,7 @@
 ### Site Settings ###
 title               : Jaezic
 description         : >-
-                      Hello, I'm Mingyu Jeong Nickname is Jaezic. Good day!
-                      I am a software student from South Korea 🇰🇷. 
-                      I am interested in data science and software, programing langauge. 
-                      I love reading, exercising and communicating!
+                      Hello
 url                 : "https://jaezic.github.io/"
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : "Jaezic/jaezic.github.io"    # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
