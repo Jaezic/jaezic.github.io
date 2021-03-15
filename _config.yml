@@ -1,9 +1,10 @@
 ### Site Settings ###
-title               : portfolYOU
+title               : Jaezic
 description         : >-
-                      I turn coffee :coffee: into code,
-                      use tabs over spaces
-                      and never broke production.
+                      Hello, I'm Mingyu Jeong Nickname is Jaezic. Good day!
+                      I am a software student from South Korea 🇰🇷. 
+                      I am interested in data science and software, programing langauge. 
+                      I love reading, exercising and communicating!
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          :     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 #remote_theme        : YoussefRaafatNasry/portfolYOU
