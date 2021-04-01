@@ -10067,6 +10067,7 @@ img::-moz-selection {
   text-transform: uppercase;
 }
 #mainNav .navbar-brand img {
+  opacity: 0.8;
   height: 1.5rem;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -10133,8 +10134,12 @@ header.masthead .masthead-subheading {
   margin-bottom: 25px;
   font-family: "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+.Text-bold{
+  
+  font-size: 1.6rem;
+}
 header.masthead .masthead-heading {
-  font-size: 3.25rem;
+  font-size: 3.2rem;
   font-weight: 700;
   line-height: 3.25rem;
   margin-bottom: 2rem;
