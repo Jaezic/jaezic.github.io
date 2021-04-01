@@ -10116,7 +10116,7 @@ img::-moz-selection {
   }
 }
 header.masthead {
-  padding-top: 12.5rem;
+  padding-top: 10.5rem;
   padding-bottom: 30rem;
   /*text-align: center;*/
   color: #fff;
@@ -10127,8 +10127,9 @@ header.masthead {
   background-position: center center;
   background-size: cover;*/
   background: no-repeat linear-gradient(to bottom, transparent,80%, rgb(255, 255, 255)),
-  url("../assets/img/header-bg2.jpg") center center;
+  url("../assets/img/header-bg2.jpg");
   background-size: cover;
+  background-position: left;
 
 }
 header.masthead .masthead-subheading {
