@@ -40,7 +40,10 @@
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
-
+@font-face{
+  src: url("../fonts/AppleSDGothicNeoM.ttf");
+  font-family: applegothicM;
+}
 *,
 *::before,
 *::after {
@@ -9843,7 +9846,8 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-muted {
-  color: #6c757d !important;
+  color: #5e676e !important;
+ line-height: 150%;
 }
 
 .text-black-50 {
@@ -9996,8 +10000,8 @@ p {
 .page-section h3.section-subheading {
   font-size: 1rem;
   font-weight: 400;
-  font-style: italic;
-  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /*font-style: italic;*/
+  font-family: "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin-bottom: 4rem;
 }
 
@@ -10116,7 +10120,7 @@ img::-moz-selection {
   }
 }
 header.masthead {
-  padding-top: 10.5rem;
+  padding-top: 10.0rem;
   padding-bottom: 30rem;
   /*text-align: center;*/
   color: #fff;
@@ -10133,11 +10137,11 @@ header.masthead {
 
 }
 header.masthead .masthead-subheading {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   /*font-style: italic;*/
   line-height: 1.7rem;
-  margin-bottom: 25px;
-  font-family: "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin-bottom: 30px;
+  font-family: "applegothicM", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .Text-bold{
   font-size: 2.0rem;
@@ -10152,15 +10156,15 @@ header.masthead .masthead-heading {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 13rem;
+    padding-top: 14rem;
     padding-bottom: 30.5rem;
     /*text-align: center;*/
   }
   header.masthead .masthead-subheading {
-    font-size: 2.25rem;
+    font-size: 2.0rem;
     /*font-style: italic;*/
     line-height: 2.25rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2.6rem;
     
   }
   header.masthead .masthead-heading {
