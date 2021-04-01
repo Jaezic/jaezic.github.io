@@ -10046,9 +10046,9 @@ img::-moz-selection {
 }
 
 #mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  background-color: #212529;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #21252999;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -10067,7 +10067,6 @@ img::-moz-selection {
   text-transform: uppercase;
 }
 #mainNav .navbar-brand img {
-  opacity: 0.8;
   height: 1.5rem;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -10097,9 +10096,9 @@ img::-moz-selection {
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: #212529;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #21252999;
     /* #212529; */
   }
   #mainNav.navbar-shrink .navbar-brand {
@@ -10118,14 +10117,19 @@ img::-moz-selection {
 }
 header.masthead {
   padding-top: 10.5rem;
-  padding-bottom: 6rem;
+  padding-bottom: 30rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg2.jpg");
+
+ /* background-image: url("../assets/img/header-bg2.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
+  background-size: cover;*/
+  background: no-repeat linear-gradient(to bottom, transparent,80%, rgb(255, 255, 255)),
+  url("../assets/img/header-bg2.jpg") center center;
   background-size: cover;
+
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
@@ -10135,8 +10139,7 @@ header.masthead .masthead-subheading {
   font-family: "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .Text-bold{
-  
-  font-size: 1.6rem;
+  font-size: 2.0rem;
 }
 header.masthead .masthead-heading {
   font-size: 3.2rem;
@@ -10149,7 +10152,7 @@ header.masthead .masthead-heading {
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 13rem;
-    padding-bottom: 14.5rem;
+    padding-bottom: 30.5rem;
   }
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
