@@ -477,6 +477,16 @@ mark,
   content: "— ";
 }
 
+.text-vertical-center {
+}
+
+.img-fluid2 {
+  margin: 5px 0px 25px 0px;
+  max-width: 32%;
+  height: auto;
+  float: center;
+}
+
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -10156,7 +10166,7 @@ header.masthead .masthead-heading {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 14rem;
+    padding-top: 15rem;
     padding-bottom: 30.5rem;
     /*text-align: center;*/
   }
@@ -10164,7 +10174,7 @@ header.masthead .masthead-heading {
     font-size: 2.0rem;
     /*font-style: italic;*/
     line-height: 2.25rem;
-    margin-bottom: 2.6rem;
+    margin-bottom: 2.2rem;
     
   }
   header.masthead .masthead-heading {
