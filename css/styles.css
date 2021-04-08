@@ -10139,7 +10139,7 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;*/
-  background: no-repeat linear-gradient(to bottom, transparent,80%, rgb(255, 255, 255)),
+  background: no-repeat linear-gradient(to bottom, transparent,88%, rgb(255, 255, 255)),
   url("../assets/img/header-bg2.jpg");
   background-size: cover;
   background-position: left;
